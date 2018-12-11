@@ -1,5 +1,6 @@
 package pizzashop;
 import pizzashop.menu.Pizza;
+import pizzashop.menu.Drink;
 
 
 public class App {
@@ -12,6 +13,9 @@ public class App {
         cheesePizza = new Pizza(toppings);  // Only in heap
         System.out.println(cheesePizza.toString());
         System.out.println(crust);
+
+        Drink cola = new Drink("Cola", 16);
+        System.out.println(cola.toString());
         
         System.out.println("Finished running PizzaShop");
     }
